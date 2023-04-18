@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sriwijaya</title>
+</head>
+<style>
+    body{
+        background-image: url(img/swj.jpg);
+        background-size: cover;
+    }
+    .parent{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        user-select: none;
+        
+        
+       
+    }
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        text-align: justify;
+        height: 100vh;
+        width: 900px;
+        background-color: white;
+        opacity: 0.8;
+        padding: 25px;
+        overflow: scroll;
+        scrollbar-width: 15px;
+        border-radius: 10%;
+
+        
+        
+        
+    }
+
+    h1{
+        text-align: center;
+        font-size: 45px;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    
+    
+    @media only screen and (max-width:600px){
+        body{
+            background-size:auto;
+            box-sizing: border-box;
+            
+            
+        }
+
+        .parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container{
+            width:338px ;
+            height: 602px; 
+            
+        }
+        
+    }
+
+</style>
+<body>
+    <div class="parent">
+    <div class="container">
+        <h1>~History of Sriwijaya Kingdom~</h1>
+        <p>Sriwijaya Kingdom was a maritime empire that existed from the 7th to the 13th centuries CE in what is now modern-day Indonesia. It was one of the most powerful and influential kingdoms in Southeast Asia, with its capital located in present-day Palembang, on the island of Sumatra. <br><br>
+
+            Sriwijaya Kingdom was founded around the 7th century CE, and it quickly grew into a major maritime power due to its strategic location along the trade routes between China, India, and other parts of Southeast Asia. The kingdom's rulers, known as Maharajas, established a powerful navy that controlled the sea trade routes and amassed great wealth from trade, particularly in spices, gold, and precious woods.
+            <br><br>
+            One of the most famous rulers of Sriwijaya Kingdom was Rajendra Chola I, a king from the Chola Dynasty in South India, who invaded and conquered Sriwijaya in the 11th century. This marked a period of strong Indian cultural influence in Sriwijaya, including the spread of Hinduism and Buddhism.
+            <br><br>
+            Sriwijaya Kingdom was also known for its maritime and cultural achievements. The kingdom had a sophisticated system of governance, with a centralized administration and a complex system of taxation. It was also a center of learning and Buddhism, with many Buddhist scholars and pilgrims traveling to Sriwijaya to study and spread the teachings of Buddhism.
+            <br><br>
+            However, over time, Sriwijaya Kingdom faced internal strife, external pressures from other regional powers, and changes in trade routes that led to its decline. By the 13th century, Sriwijaya Kingdom had lost much of its power and influence, and it eventually faded into obscurity.
+            <br><br>
+            Today, the legacy of Sriwijaya Kingdom can be seen in the archaeological remains of its capital in Palembang, including ancient temples, monuments, and inscriptions that provide insights into its history and cultural heritage. Sriwijaya Kingdom is remembered as a significant maritime empire that played a crucial role in shaping the history and culture of Southeast Asia.
+            <br><br>
+            Dapunta Hyang Sri Jayanasa (683 M)
+            <br>
+            Indrawarman (702 M) <br>
+            Rudra Wikrama (728-742 M) <br>
+            Sangramadhananjaya (775 M)<br>
+            Dharanindra/Rakai Panangkaran (778 M) <br>
+            Samaragrawira/Rakai Warak (782 M)<br>
+            Dharmasetu (790 M)<br>
+            Samaratungga/Rakai Garung (792 M) <br>
+            Balaputradewa (856 M) <br>
+            Sri Udayadityawarman (960 M) <br>
+            Sri Wuja atau Sri Udayadityan (961 M) <br>
+            Hsiae-she (980 M)<br>
+            Sri Cudamaniwarmadewa (988 M) <br>
+            Malayagiri/Suwarnadwipa (990 M) <br>
+            Sri Marawijayottunggawarman (1008 M) <br>
+            Sumatrabhumi (1017 M)<br>
+            Sri Sanggrama Wijayatunggawarman (1025 M)<br>
+             Sri Dewa (1028 M)<br>
+             Dharmawira (1064 M) <br>
+            Sri Maharaja (1156 M) <br>
+            Trailokyaraja Maulibhusana Warmadewa (1178 M)
+            </p>
+            <p>Check the password</p>
+            <input type="text" id="password">
+            <button onclick="myFunction()">Check</button>
+            <p id="answer"></p>
+    </div>
+</div>
+</body>
+<script>
+    function myFunction(){
+        var a = document.getElementById("password").value;
+        
+
+        if (a == "1058") {
+           alert('Indrawarman say:\nYOU HAVE INPUT THE CORRECT PASSWORD !');
+        } else {
+           var name = prompt('nama kamu ciapa cih?');
+           var pendamping = prompt('Nama pendamping kamu ciapa? kepo aku');
+            alert(name + ' , Ente kadang-kadang salah masukin password,');
+            alert('Coba diteliti lagi');
+            alert('Kata ' + pendamping+" kalau dicoba dan dibaca lebih teliti pasti bisa kok");
+            confirm('gimana? mau coba lagi ta?');
+            
+        }
+
+    }
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>document.onkeydown = function(e) {         if (e.ctrlKey &&             (e.keyCode === 67 ||              e.keyCode === 86 ||              e.keyCode === 85 ||              e.keyCode === 117)) {             return false;         } else {             return true;         } }; $(document).keypress("u",function(e) {   if(e.ctrlKey)   { return false; } else { return true; } }); </script><!- start disable copy paste --><script src='demo-to-prevent-copy-paste-on-blogger_files/googleapis.js'></script><script type='text/javascript'> if(typeof document.onselectstart!="undefined" ) {document.onselectstart=new Function ("return false" ); } else{document.onmousedown=new Function ("return false" );document.onmouseup=new Function ("return false"); } </script> <!-- End disable copy paste --></!-><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script>$(document).ready(function(){    $(document).bind("contextmenu",function(e){       return false;    }); }); </script>
+
+</script>
+</html>
